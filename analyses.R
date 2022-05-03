@@ -101,7 +101,7 @@ data$n.obstruents <- str_count(data$transcript, "p|t|k|b|d|g|f|s|S|h|v|z|Z")
 
 # position
 data$n.grave <- str_count(data$transcript, "m|p|k|b|g|f|h|v|N")
-data$n.acute <- str_count(data$transcript, "n|t|d|s|z|S|Z|l|r")
+data$n.acute <- str_count(data$transcript, "n|t|d|s|z|S|Z|l|L|r")
 
 
 #### VOWELS
